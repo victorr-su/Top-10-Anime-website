@@ -31,5 +31,7 @@ p,figcaption{
 html{
     overflow: scroll;
 }
-
+img{
+    margin-left: 50px;
+}
   
