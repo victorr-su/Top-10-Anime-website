@@ -5,23 +5,26 @@ figcaption,p,a,li,form{
     opacity: 0.6;
 }
 h1,h3{
-    margin-left: 50px;
+    margin-left: 5%;
     opacity: 0.8;
     font-family:"helvetica"; 
 }
 figcaption,a,h3,a,p,form{
-    margin-top: 50px;
-    margin-bottom:10px;
-    margin-right: 580px;
-    margin-left: 50px;
+    margin-top: 4%;
+    margin-bottom:4%;
+    margin-right: 30%;
+    margin-left: 5%;
 }
-ol,nav{
-    margin-left:30px ;
+ol{
+    margin-left: 4%
+}
+nav{
+    margin-left:0% ;
 }
 
 hr{
-    margin-left:50px;
-    margin-right:580px;
+    margin-left:5%;
+    margin-right:30%;
     color: black;
 }
 p,figcaption{
@@ -31,7 +34,19 @@ p,figcaption{
 html{
     overflow: scroll;
 }
-img{
-    margin-left: 50px;
+img,iframe{
+    margin-left: 5%;
 }
+@media screen and (min-width: 601px) {
+    figcaption,p {
+      font-size: 16.5px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    figcaption,p {
+      font-size: 8px;
+    }
+  }
   
