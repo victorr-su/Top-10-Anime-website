@@ -9,7 +9,7 @@ h1,h3{
     opacity: 0.8;
     font-family:"helvetica"; 
 }
-figcaption,a,h3,img,a,p,form{
+figcaption,a,h3,a,p,form{
     margin-top: 50px;
     margin-bottom:10px;
     margin-right: 580px;
@@ -18,11 +18,7 @@ figcaption,a,h3,img,a,p,form{
 ol,nav{
     margin-left:30px ;
 }
-iframe{
-   position: relative;
-   right: 400px;
-   bottom: 10px;
-}
+
 hr{
     margin-left:50px;
     margin-right:580px;
