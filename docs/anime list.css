@@ -49,4 +49,14 @@ img,iframe{
       font-size: 10px;
     }
   }
-  
+  .box{
+    border: 1px solid black;
+    width: 200px;
+    padding: 100px;
+    padding-left: 0px;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+
+  }
